@@ -1,0 +1,25 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "HTML and CSS template for a landing page for coders who just need an online presence done quick. Built using Less and Bootstrap and responsive",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSTHackers/Coder-Web-Template.git"
+  },
+  "author": "berta deveant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSTHackers/Coder-Web-Template/issues"
+  },
+  "homepage": "https://github.com/CSTHackers/Coder-Web-Template#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jit-grunt": "^0.10.0"
+  }
+}
