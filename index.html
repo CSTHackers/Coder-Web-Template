@@ -8,20 +8,53 @@
 		<!-- Bootstrap core CSS -->
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/bootstrap-theme.css" rel="stylesheet">
-		<link href="css/personal-stle.css" rel="stylesheet">
+		<link href="css/personal-style.css" rel="stylesheet">
 	</head>
 	<body>
-			<nav class="navbar navbar-inverse navbar-fixed-top">
-				<div class="container">
-				<div id "navbar" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav">
-						<li><a href="user/bio">Bio</a></li> 
-						<li><a href="user/skills">Skills</a></li>
-						<li><a href="user/portfolio">Portfolio</a></li>
-						<li><a href="user/contact">Contact</a></li>
-					</ul>
+		<header>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+         		 	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+           			<span class="sr-only">Toggle navigation</span>
+           			<span class="icon-bar"></span>
+            		<span class="icon-bar"></span>
+            		<span class="icon-bar"></span>
+          			</button>
+          	<h1 class="navbar-left">
+          		<a class="navbar-brand logo">User Name</a>
+				
+			</h1>
+			<!--	
+          	<a class="navbar-brand navbar-left logo">User Name</a>
+        	-->
+        		</div>
+		<div id "navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="user/bio">Bio</a></li> 
+				<li><a href="user/skills">Skills</a></li>
+				<li><a href="user/portfolio">Portfolio</a></li>
+				<li><a href="user/contact">Contact</a></li>
+			</ul>
+			
+		</div>
+		</nav>
+		::after
+		<div class="container theme-showcase" role="main">
+			<!--
+			The <div> below is used for a page break. If this is not included the content withing the columns bleeds under navigation bar. This problem is most likely due to screwing up a div tag up above. 
+		-->
+			<div><h1><br></h1></div>
+			<div class="row">
+				<div class="col-md-6">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et lorem consequat tellus luctus fermentum. Morbi consectetur massa velit, ut pharetra risus pretium in. Nunc id scelerisque dolor, at lobortis ligula. Sed ut nibh libero. Nam felis lorem, malesuada eu scelerisque in, molestie ac nisi. Nulla eget varius sapien, in blandit nisi. Curabitur risus ex, interdum non laoreet sed, gravida eu est. Donec aliquam a metus vitae efficitur. Sed luctus massa vel nisi sollicitudin sollicitudin. Vivamus eu dapibus nisi. In luctus arcu purus, non pulvinar ex malesuada ac. Aenean fringilla pharetra sodales. Quisque non dignissim augue. Mauris nec molestie tortor. 
+					</p>
 				</div>
+				<div class="col-md-6">
+					<img src="img/profile.jpg"></img>
 				</div>
-			</nav>
+			</div>
+		</div>
 	</body>
 </html>
