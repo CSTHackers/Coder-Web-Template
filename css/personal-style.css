@@ -1,9 +1,9 @@
 /* This is the personal style file, if you need to add any styles to the page or change some the custom styles we added besides Bootstrap is recommended that you do it here
-For this to work this css file should be the last one to be imported into your html on the meta head. 
-We added as many comments as possible to let you knwo what is doing what and why we are adding extra styles over bootstrap 
+For this to work this css file should be the last one to be imported into your html on the meta head.
+We added as many comments as possible to let you knwo what is doing what and why we are adding extra styles over bootstrap
 The style file is also divided by sections: NAVBAR / TEXT / HEADING / IMAGES / FOOTER */
 
-/*import google font that you want to use for your logo; you can change to your favorite. 
+/*import google font that you want to use for your logo; you can change to your favorite.
 The standard font for the rest of the text is Helevtica NEUE */
 @import url(https://fonts.googleapis.com/css?family=Yellowtail|Caveat:400,700);
 
@@ -18,7 +18,18 @@ The standard font for the rest of the text is Helevtica NEUE */
 
 /** ------ TEXT ------ **/
 
+/*style for the row with the background image, can be changed to a color if wanted right here*/
+.imageRow {
+	background-: url(images/darkMin01.jpg) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
 
+#container {
+		background-color: blue;
+}
 
 
 
@@ -33,7 +44,3 @@ The standard font for the rest of the text is Helevtica NEUE */
 
 
 /** ------ FOOTER ------ **/
-
-
-
-
