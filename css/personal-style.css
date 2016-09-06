@@ -18,20 +18,42 @@ The standard font for the rest of the text is Helevtica NEUE */
 
 /** ------ TEXT ------ **/
 
-/*style for the row with the background image, can be changed to a color if wanted right here*/
-.imageRow {
-	background-: url(images/darkMin01.jpg) no-repeat center center fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
+/*style for the row with the background image*/
+#one {
+    background-image: url([insert-url]);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:500px;
+}
+/*background color */
+#two {
+    background-color: grey;
+    height:600px;
+}
+#three {
+    background-color: white;
+    height:600px;
 }
 
-#container {
-		background-color: blue;
+/*content for padding*/
+.content{
+    padding:65px;
 }
-
-
+[class*="col-"] {
+    padding-top:10px; /* 15px side paddings automatically applied */
+    padding-bottom:10px;
+    /*border: 1px solid grey; */
+    background: transparent;
+}
+.fixed-width {
+    display:inline-block;
+    float:none;
+    /*width: 300px; */
+}
+.no-padding {
+	padding-left: 0px;
+	padding-right: 0px;
+}
 
 /** ------ HEADING ------ **/
 
@@ -40,7 +62,11 @@ The standard font for the rest of the text is Helevtica NEUE */
 
 /** ------ IMAGES ------ **/
 
-
+.centered {
+	display: block;
+  margin-left: auto;
+  margin-right: auto
+}
 
 
 /** ------ FOOTER ------ **/

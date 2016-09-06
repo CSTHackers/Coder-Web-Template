@@ -48,10 +48,11 @@
         </div> <!-- /.container -->
     </nav> <!-- end Navbar-->
 
-    <div class="container-fluid">
-      <!--We place a container fluid for all the three rows and then a seperate container for each row to allow to use the full screen size for bkg -->
-      <div class="container colorBKG">
-          <div class="row">
+    <div class="container-fluid no-padding">
+      <!--We place a container fluid for all the three rows and then a seperate section for each row to allow to use the full screen size for bkg -->
+      <section id="two">
+          <div class="container">
+              <div class="row text-center content">
                 <div class="col-md-5">
                       <h1>Who am I?</h1>
                       <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -62,24 +63,32 @@
                         nisl nec ante auctor, ut sollicitudin turpis tempus. Mauris at sapien dolor.
                       </p>
                       <a class="btn btn-large btn-primary" href="#">Here's my resume!</a>
-                    </div>
-                    <div class="col-md-2"></div>
-                    <div class="col-md-5 item">
-                      <img height="500px" width="400px" src="img/profile.jpg" class="img-rounded center-block"></img>
-                  <!-- added some styling to the image -->
-                    </div>
-            </div> <!-- .row -->
+                  </div>
+                  <div class="col-md-2"></div>
+                  <div class="col-md-5 item">
+                      <img height="500px" width="400px" src="images/profile.jpg" class="img-rounded centered "></img> <!-- added some styling to the image -->
+                  </div>
+              </div> <!-- .row -->
           </div> <!-- container -->
-            <div class="row">
+      </section>
+      <section id="three">
+          <div class="container">
+              <div class="row text-center">
                 <!-- Set the second row for work samples -->
-
                     <h2>Professional Work Samples</h2>
-            </div> <!-- .row -->
-            <div class="row">
+              </div> <!-- .row -->
+          </div> <!-- container -->
+      </section>
+      <section id="two">
+          <div class="container">
+              <div class="row text-center ">
                 <!-- Set the third row for Personal Projects -->
                     <h2>Side Projects / Interests</h2>
-            </div> <!-- .row -->
-        </div> <!-- container-fluid -->
+              </div> <!-- .row -->
+          </div> <!-- container -->
+      </section>
+
+    </div> <!-- container-fluid -->
 
     <footer>
         <div class="row">
